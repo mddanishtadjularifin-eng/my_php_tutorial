@@ -10,10 +10,10 @@ A string is a sequence of characters, such as:*/
 -Email addresses
 */
 
-/*Strings are written inside quotes:*/
+/*Strings are written inside quotes:
 
 $name = "Mario";
-$email = 'mario123@gmail.com';
+$email = 'mario123@gmail.com';*/
 
 /*Both single (') and double (") quotes can be used.*/
 
@@ -22,10 +22,11 @@ $email = 'mario123@gmail.com';
 Concatenation means joining strings together.
 
 PHP uses a dot (.) to concatenate.*/
-
+/*
 $string1 = "My email is ";
 $string2 = "mario@gmail.com";
 echo $string1 . $string2;
+*/
 
 /*Output: My email is mario@gmail.com*/
 

@@ -56,4 +56,4 @@
 // include = error → code continues
 // require = error → code stops
 
-?> 
+?>

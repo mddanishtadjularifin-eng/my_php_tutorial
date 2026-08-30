@@ -1,9 +1,10 @@
 <?/*
 1. Number Types
 Integer = whole number --> 25
-Float = decimal number --> 3.14 */
+Float = decimal number --> 3.14 
 $age = 20;
 $pi = 3.14;
+*/
 
 /*2. Math Operators
 + = Add
@@ -22,18 +23,19 @@ BIDMAS:
 5.Addition
 6.Subtraction*/
 
-/*4. Increment & Decrement*/
+/*4. Increment & Decrement
 $age++;
-/*Add 1*/
+Add 1*/
 
-$age--;
-/* Subtract */
+/*$age--;
+ Subtract */
 
-/*5. Shorthand Operators*/
+/*5. Shorthand Operators
 $age += 10;  // Add
 $age -= 10;  // Subtract
 $age *= 2;   // Multiply
 $age /= 2;   // Divide
+*/
 
 /*6. Number Functions
 floor() = Round down

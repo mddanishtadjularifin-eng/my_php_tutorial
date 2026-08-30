@@ -15,10 +15,10 @@ for (initialization; condition; increment) {
     // code
 }*/
 
-/*Example:*/
+/*Example:
 for ($i = 0; $i < 5; $i++) {
     echo "Hello";
-}
+}*/
 
 /*3 Parts:
 1.Initialization = $i = 0
@@ -31,10 +31,10 @@ for ($i = 0; $i < 5; $i++) {
 Result: Code runs 5 times.*/
 
 /*3. for Loop with an Array
-Useful for looping through an array when you don't know the exact number of items.*/
+Useful for looping through an array when you don't know the exact number of items.
 for ($i = 0; $i < count($blogs); $i++) {
     echo $blogs[$i];
-}
+}*/
 /*
 -count($blogs) --> gets the number of items in the array.
 -$i --> used as the array index.
@@ -44,15 +44,15 @@ for ($i = 0; $i < count($blogs); $i++) {
 
 Used to loop through each item in an array.
 
-Structure:*/
+Structure:
 foreach ($array as $item) {
     // code
-}
+}*/
 
-/*Example:*/
+/*Example:
 foreach ($ninjas as $ninja) {
     echo $ninja;
-}
+}*/
 /*Meaning:
   For each item in $ninjas, call the current item $ninja.*/
 
@@ -66,17 +66,17 @@ foreach ($ninjas as $ninja) {
 
 A multi-dimensional array contains arrays inside an array.
 
-Example:*/
+Example:
 $products = [
     ["name" => "Phone", "price" => 500],
     ["name" => "Laptop", "price" => 1000]
-];
+];*/
 
-/*Loop through products:*/
+/*Loop through products:
 foreach ($products as $product) {
     echo $product["name"];
     echo $product["price"];
-}
+}*/
 /*
 $product = current product.
 $product["name"] = product name.
@@ -91,15 +91,15 @@ while (condition) {
     // code
 }*/
 
-/*Example:*/
+/*Example:
 $i = 0;
 while ($i < 5) {
     echo $i;
     $i++;
-}
+}*/
 
 /*Important!
-You must change the counter inside the loop.*/
+You must change the counter inside the loop.
 $i++;
 /*Otherwise, the condition may always stay true --> infinite loop.*/
 
